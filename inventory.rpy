@@ -7,6 +7,8 @@ init python:
             s.gift = gift # 1 if it is a gift or 0 if not
             s.craftable = craftable # can you craft something with it?
 
+
+
     class inventory:
         def __init__(s):
             s.item = [] # items you have
